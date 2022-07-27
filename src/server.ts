@@ -46,7 +46,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
      });
    } catch (error) {
      return res.status(400)
-               .send('unable to filter content at image_url');
+               .send('Error processing image');
    }
  
    });
